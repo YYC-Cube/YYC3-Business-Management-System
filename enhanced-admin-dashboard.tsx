@@ -34,11 +34,10 @@ import { CollaborationEngine } from "./components/data-center/collaboration-engi
 import { DynamicDataCenter } from "./components/data-center/dynamic-data-center"
 import { WeChatIntegration } from "./components/data-center/wechat-integration"
 
-// 导入开发计划组件
-import { CurrentStatusAnalysis } from "./docs/current-status-analysis"
-import { DevelopmentAnalysisReport } from "./docs/development-analysis-report"
-import { DevelopmentRoadmap } from "./docs/development-roadmap"
-import { TechnicalSpecifications } from "./docs/technical-specifications"
+import { CurrentStatusAnalysis } from "./components/development-analysis/current-status-analysis"
+import { DevelopmentAnalysisReport } from "./components/development-analysis/development-analysis-report"
+import { DevelopmentRoadmap } from "./components/development-analysis/development-roadmap"
+import { TechnicalSpecifications } from "./components/development-analysis/technical-specifications"
 
 // 导入项目管理组件
 import { AgileWorkflow } from "./components/project-management/agile-workflow"

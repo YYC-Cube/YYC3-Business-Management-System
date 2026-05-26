@@ -5,8 +5,8 @@ import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Server, Shield, Zap, Code, GitBranch, Package, Monitor, Cloud, Lock, Activity, Settings } from "lucide-react"
 
-import { EnhancedCard } from "../components/design-system/enhanced-card-system"
-import { AnimatedContainer } from "../components/design-system/animation-system"
+import { EnhancedCard } from "../design-system/enhanced-card-system"
+import { AnimatedContainer } from "../design-system/animation-system"
 
 export function TechnicalSpecifications() {
   const architectureComponents = [

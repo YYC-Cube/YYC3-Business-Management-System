@@ -23,8 +23,8 @@ import {
   Monitor,
 } from "lucide-react"
 
-import { EnhancedCard } from "../components/design-system/enhanced-card-system"
-import { AnimatedContainer } from "../components/design-system/animation-system"
+import { EnhancedCard } from "../design-system/enhanced-card-system"
+import { AnimatedContainer } from "../design-system/animation-system"
 
 interface DevelopmentPhase {
   id: string
