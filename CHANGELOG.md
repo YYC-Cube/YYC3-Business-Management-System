@@ -5,6 +5,27 @@ All notable changes to the YYC³ Business Management System will be documented i
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-05-27
+
+### Added
+
+- **GitHub Pages CI/CD** — 自动化静态部署工作流，推送到 `main` 分支自动构建发布
+- **Next.js 静态导出** — 配置 `output: 'export'`，支持 GitHub Pages 部署
+- **自定义域名** — `management.yyc3.top` CNAME 自动配置
+- **MIT License** — 开源协议，欢迎社区贡献
+- **开源文档体系** — README / CONTRIBUTING / CHANGELOG 全面更新为开源社区标准格式
+
+### Changed
+
+- **README.md** — 以开源为核心重写，增加 Live Demo 链接、Why YYC³、Deployment 章节和团队文化
+- **CONTRIBUTING.md** — 完善 Fork → PR 全流程指南，增加质量清单和版本规范
+- **package.json** — `private: false`，开放开源发布
+- **next.config.mjs** — 新增 `output: 'export'` + `basePath` + `images.unoptimized` 配置
+
+### Fixed
+
+- **404 问题** — 修复 GitHub Pages 部署后页面 404，配置正确的静态导出和 basePath
+
 ## [1.0.0] - 2026-05-26
 
 ### Added

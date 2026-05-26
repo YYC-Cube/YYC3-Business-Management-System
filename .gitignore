@@ -75,3 +75,4 @@ next-env.d.ts
 .eslintcache
 .stylelintcache
 .parcel-cache
+out/
